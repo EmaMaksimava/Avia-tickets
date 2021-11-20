@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/99px_ru_wallpaper_320297_samolet_idet_nad_vzletnoj_polosoj_na_fone_krasnogo.jpg);
+    background-position: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-items-center {
+    justify-items: center;
+}
+
+.ml-auto {
+    margin-left:auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mt-auto {
+    margin-top: 3%;
+}
+
+/* Header styles */
+.header .barand-logo {
+    position:static;
+}
+
+.header .currency-select {
+    border-radius: 3px;
+    background-color: #e65100;
+}
+
+.header .currency-select input.select-dropdown {
+    margin: 0px auto;
+    color: #fff;
+    border-bottom: none;
+}
+
+.header .currency-select input.select-dropdown:focus {
+    border-bottom: none;
+}
+
+.header .currency-select .caret {
+    fill: #fff;
+}
+
+.header .brand-logo {
+    font-size: 1.5rem;
+}
+
+.icon-size {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #e65100;
+    border-radius: 5px;
+}
+
+.icon-size:hover {
+    
+    box-shadow: 2px 2px 2px #e65100;
+}
