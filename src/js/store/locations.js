@@ -13,12 +13,35 @@ class Locations {
         ]);
 
         const [countries, cities] = response;
-        this.countries = countries;
+        this.countries = this.serializeCountries(countries);
         this.cities = cities;
 
         return response;
 
     }
+
+    serializeCountries(countries) {
+        // {"Country code": { ... }}
+        return countries.reduce((acc, country) => {
+            acc[country.code] = country;
+            return acc;
+        }, {});
+    }
+
+    serializeCities(cities) {
+        // {'City name, Country name': {...}}
+        return cities.reduce((acc, city) => {
+          const country_name = this.getCountryNameByCode(city.country_code);
+          const key = `${city.name},${country_name}`;
+          acc[key] = city;
+          return acc;
+        }, {});
+    }
+
+    getCountryNameByCode(code) {
+        return this.countries[code].name;
+    }
+
     getCitiesByCountryCode(code) {
         return this.cities.filter(city => city.country_code === code);
     }
