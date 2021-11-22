@@ -1,4 +1,5 @@
 import api from "../services/apiService";
+import { formatDate } from '../helpers/date';
 
 class Locations {
     constructor(api) {
@@ -90,7 +91,8 @@ class Locations {
 
     async fetchTickets(params) {
         const response = await this.api.prices(params);
-        this.lastSearch = response.data;
+        this.lastSearch = this.serializeTickets(response.data);
+        console.log(this.lastSearch);
     }
 
     serializeTickets(tickets) {
