@@ -66,6 +66,77 @@ body {
     font-size: 1.5rem;
 }
 
+.icon-size {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #e65100;
+    border-radius: 5px;
+}
+
+.icon-size:hover {
+    
+    box-shadow: 2px 2px 2px #e65100;
+}
+
+.ticket-card {
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .ticket-airline-name {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+  
+  .ticket-airline-img {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  
+  .ticket-destination {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed gray;
+  }
+  
+  .ticket-destination .ticket-city {
+    font-size: 26px;
+    text-transform: uppercase;
+  }
+  
+  .ticket-destination i.material-icons {
+    font-size: 26px;
+  }
+  
+  .ticket-time-departure {
+    font-weight: bold;
+    color: gray;
+  }
+  
+  .ticket-price {
+    font-size: 25px;
+    padding: 5px;
+    border: 1px solid #cf3404;
+    border-radius: 5px;
+    background: #e65100;
+    box-shadow: 2px 2px 2px rgb(189, 114, 2);
+    color: #fff;
+  }
+  
+  .ticket-additional-info {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .tickets-empty-res-msg {
+    padding: 10px 15px;
+    text-align: center;
+    background: whitesmoke;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+
 /*!
  * Materialize v1.0.0 (http://materializecss.com)
  * Copyright 2014-2017 Materialize
