@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642778890831" clover="3.2.0">
-  <project timestamp="1642778890831" name="All files">
-    <metrics statements="136" coveredstatements="46" conditionals="14" coveredconditionals="6" methods="49" coveredmethods="15" elements="199" coveredelements="67" complexity="0" loc="136" ncloc="136" packages="7" files="10" classes="10"/>
+<coverage generated="1642867529538" clover="3.2.0">
+  <project timestamp="1642867529539" name="All files">
+    <metrics statements="136" coveredstatements="56" conditionals="14" coveredconditionals="6" methods="49" coveredmethods="17" elements="199" coveredelements="79" complexity="0" loc="136" ncloc="136" packages="7" files="10" classes="10"/>
     <package name="js">
       <metrics statements="17" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
       <file name="app.js" path="D:\MamsFolder\Udemy\JS Vue\project AviaTickets\src\js\app.js">
@@ -59,25 +59,25 @@
       </file>
     </package>
     <package name="js.services">
-      <metrics statements="22" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
+      <metrics statements="22" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
       <file name="apiService.js" path="D:\MamsFolder\Udemy\JS Vue\project AviaTickets\src\js\services\apiService.js">
-        <metrics statements="22" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
+        <metrics statements="22" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
         <line num="23" count="2" type="stmt"/>
         <line num="24" count="2" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
         <line num="28" count="1" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
         <line num="46" count="0" type="stmt"/>
