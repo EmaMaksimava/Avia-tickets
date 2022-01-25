@@ -22,7 +22,7 @@
 
         <ul class="left hide-on-med-and-down ml-auto">
           <li class="active">
-            <div class="input-field currency-select">
+            <div class="input-field currency-select" data-hook="currencySelect">
               <select id="currency">
                 <option value="USD"> $ Dollar</option>
                 <option value="EUR"> € Euro</option>
@@ -57,8 +57,8 @@
                   <input type="text" class="datepicker" id="datepicker-dapart" data-hook="datepickerDepartInput">
                   <label for="datepicker-dapart">Depart date</label>
                 </div>
-                <div class="input-field">
-                  <input type="text" class="datepicker" id="datepicker-return">
+                <div class="input-field" data-hook="datepickerReturnWrap">
+                  <input type="text" class="datepicker" id="datepicker-return" data-hook="datepickerReturnInput">
                   <label for="datepicker-return">Return date</label>
                 </div>
 
