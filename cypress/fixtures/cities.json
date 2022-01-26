@@ -1,0 +1,44 @@
+[
+  {
+    "country_code": "PL",
+    "code": "KRK",
+    "coordinates": {
+      "lat": 49.92078,
+      "lon": 36.281185
+    },
+    "name": "Краков",
+    "time_zone": "Europe/Krakow",
+    "name_translations": {
+      "en": "Krakow"
+    },
+    "cases": {
+      "da": "Кракову",
+      "pr": "Кракове",
+      "ro": "Кракова",
+      "su": "Краков",
+      "tv": "Краковом",
+      "vi": "в Краков"
+    }
+  },
+  {
+    "country_code": "NL",
+    "code": "AMS",
+    "coordinates": {
+      "lat": 48.856613,
+      "lon": 2.352222
+    },
+    "name": "Амстердам",
+    "time_zone": "Europe/Amsterdam",
+    "name_translations": {
+      "en": "Amsterdam"
+    },
+    "cases": {
+      "da": "Амстердаму",
+      "pr": "Амстердаме",
+      "ro": "Амстердама",
+      "su": "Амстердам",
+      "tv": "Астердамом",
+      "vi": "в Амстердам"
+    }
+  }
+]
